@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_text_contents_contents",
+  "info": {
+    "name": "contents",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "contentSubheadline": {
+      "type": "text"
+    },
+    "contentDescription": {
+      "type": "text"
+    },
+    "linkName": {
+      "type": "string"
+    },
+    "linkURL": {
+      "type": "string"
+    }
+  }
+}

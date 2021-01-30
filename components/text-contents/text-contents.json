@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_text_contents_text_contents",
+  "info": {
+    "name": "textContents",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "contentHeadline": {
+      "type": "string"
+    },
+    "contents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-contents.contents"
+    }
+  }
+}

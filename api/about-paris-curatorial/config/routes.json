@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-paris-curatorials",
+      "handler": "about-paris-curatorial.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-paris-curatorials/count",
+      "handler": "about-paris-curatorial.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-paris-curatorials/:id",
+      "handler": "about-paris-curatorial.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-paris-curatorials",
+      "handler": "about-paris-curatorial.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-paris-curatorials/:id",
+      "handler": "about-paris-curatorial.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-paris-curatorials/:id",
+      "handler": "about-paris-curatorial.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

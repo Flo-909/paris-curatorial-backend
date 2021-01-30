@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artists",
+  "info": {
+    "name": "artists",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageHeadline": {
+      "type": "string"
+    },
+    "pageSubheadline": {
+      "type": "text"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "artistContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "artist-content.artist-content"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "fr"
+      ]
+    }
+  }
+}

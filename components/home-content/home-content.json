@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_content_home_contents",
+  "info": {
+    "name": "homeContent",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "homePageTitle": {
+      "type": "string"
+    },
+    "homePageDescription": {
+      "type": "text"
+    },
+    "more": {
+      "type": "string"
+    },
+    "pageLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "pageURL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/past-projects",
+      "handler": "past-projects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/past-projects/count",
+      "handler": "past-projects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/past-projects/:id",
+      "handler": "past-projects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/past-projects",
+      "handler": "past-projects.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/past-projects/:id",
+      "handler": "past-projects.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/past-projects/:id",
+      "handler": "past-projects.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

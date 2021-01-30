@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "current_projects",
+  "info": {
+    "name": "Current Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageHeadline": {
+      "type": "string"
+    },
+    "pageSubheadline": {
+      "type": "text"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "fr"
+      ]
+    }
+  }
+}

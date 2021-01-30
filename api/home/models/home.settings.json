@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageHeadline": {
+      "type": "string"
+    },
+    "pageSubheadline": {
+      "type": "text"
+    },
+    "pageDescription": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "homeContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-content.home-content"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "fr"
+      ]
+    }
+  }
+}

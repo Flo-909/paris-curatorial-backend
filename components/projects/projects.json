@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "name": "projects",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "projectHeadline": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "text"
+    },
+    "projectLocation": {
+      "type": "text"
+    },
+    "projectDate": {
+      "type": "date"
+    },
+    "projectImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images"
+    },
+    "projectLink": {
+      "type": "string"
+    }
+  }
+}

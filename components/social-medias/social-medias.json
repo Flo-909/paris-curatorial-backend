@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_social_medias_social_medias",
+  "info": {
+    "name": "socialMedias",
+    "icon": "wifi",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mediaHeadline": {
+      "type": "string"
+    },
+    "medias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "medias.medias"
+    }
+  }
+}

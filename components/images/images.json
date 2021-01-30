@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_images_images",
+  "info": {
+    "name": "images",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imageCredit": {
+      "type": "string"
+    },
+    "textDescription": {
+      "type": "text"
+    }
+  }
+}

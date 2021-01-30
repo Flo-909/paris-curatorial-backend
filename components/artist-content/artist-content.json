@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_artist_content_artist_contents",
+  "info": {
+    "name": "artistContent",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "artistName": {
+      "type": "string"
+    },
+    "artistDescription": {
+      "type": "text"
+    },
+    "artworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "artist-content.artworks"
+    }
+  }
+}

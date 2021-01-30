@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_medias_medias",
+  "info": {
+    "name": "medias",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "mediaName": {
+      "type": "string"
+    },
+    "mediaURL": {
+      "type": "string"
+    }
+  }
+}

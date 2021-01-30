@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_artist_content_artworks",
+  "info": {
+    "name": "artworks",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "artworkDate": {
+      "type": "date"
+    },
+    "artworkName": {
+      "type": "string"
+    },
+    "artworkDescription": {
+      "type": "text"
+    },
+    "artworkImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

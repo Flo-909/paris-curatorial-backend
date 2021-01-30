@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_privacy_content_privacy_contents",
+  "info": {
+    "name": "privacyContent",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "privacyHeadline": {
+      "type": "string"
+    },
+    "privacyParagraph": {
+      "type": "text"
+    }
+  }
+}

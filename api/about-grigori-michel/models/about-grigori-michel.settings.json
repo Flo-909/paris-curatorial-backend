@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_grigori_michels",
+  "info": {
+    "name": "About Grigori Michel",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageHeadline": {
+      "type": "string"
+    },
+    "pageSubheadline": {
+      "type": "text"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "textContents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text-contents.text-contents"
+    },
+    "socialMedias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-medias.social-medias"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "fr"
+      ]
+    }
+  }
+}

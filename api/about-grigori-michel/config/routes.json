@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-grigori-michels",
+      "handler": "about-grigori-michel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-grigori-michels/count",
+      "handler": "about-grigori-michel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-grigori-michels/:id",
+      "handler": "about-grigori-michel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-grigori-michels",
+      "handler": "about-grigori-michel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-grigori-michels/:id",
+      "handler": "about-grigori-michel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-grigori-michels/:id",
+      "handler": "about-grigori-michel.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
