@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_meta_data_meta_data",
+  "info": {
+    "name": "MetaData",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "MetaValue",
+        "MetaProperty",
+        "MetaLink"
+      ]
+    }
+  }
+}

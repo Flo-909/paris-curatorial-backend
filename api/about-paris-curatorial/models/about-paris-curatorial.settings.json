@@ -36,6 +36,11 @@
         "en",
         "fr"
       ]
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta-data.meta-data"
     }
   }
 }

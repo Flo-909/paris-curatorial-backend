@@ -13,7 +13,7 @@
     "homePageDescription": {
       "type": "text"
     },
-    "more": {
+    "moreName": {
       "type": "string"
     },
     "pageLogo": {

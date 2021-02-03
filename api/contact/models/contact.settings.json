@@ -14,7 +14,7 @@
     "pageHeadline": {
       "type": "string"
     },
-    "address": {
+    "address1": {
       "type": "string"
     },
     "email": {
@@ -29,6 +29,15 @@
         "en",
         "fr"
       ]
+    },
+    "address2": {
+      "type": "string"
+    },
+    "address3": {
+      "type": "string"
+    },
+    "address4": {
+      "type": "string"
     }
   }
 }
